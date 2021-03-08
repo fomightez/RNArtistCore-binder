@@ -10,7 +10,7 @@ make && make clean
 # Add RNAVIEW to the path
 mkdir -p ~/.local/bin
 cd ~/.local/bin
-ln -s ~/RNAVIEW/bin RNAVIEW
+ln -s ~/RNAVIEW/bin/rnaview RNAVIEW
 
 
 
