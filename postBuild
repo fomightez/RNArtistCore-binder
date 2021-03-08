@@ -13,10 +13,12 @@ rm RNAVIEW.tar.gz
 mkdir -p ~/.local/bin
 cd ~/.local/bin
 ln -s ~/RNAVIEW/bin/rnaview RNAVIEW
+ln -s ~/RNAVIEW/bin/rnaview rnaview
 cd ~
 
 # set environmental variable
 export RNAVIEW="/RNAVIEW"
+export rnaview="/RNAVIEW"
 
 
 # retrieve rnartistcore and build  Kotlin library to describe and plot RNA secondary structures
