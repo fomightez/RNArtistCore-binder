@@ -7,7 +7,7 @@ tar -xzvf RNAVIEW.tar.gz
 cd RNAVIEW/
 make && make clean
 cd ~
-rm -f RNAVIEW.tar.gz
+rm RNAVIEW.tar.gz
 
 # Add RNAVIEW to the path
 mkdir -p ~/.local/bin
