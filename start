@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# retrieve notebooks and place correctly in session
+rm index.ipynb
+rm Getting_Circos_Up_and_Running.ipynb
+git clone https://github.com/fomightez/cbr-accompmatz.git
+cp cbr-accompmatz/index.ipynb .
+cp cbr-accompmatz/Getting_Circos_Up_and_Running.ipynb .
+mv cbr-accompmatz/notebooks .
+rm -rf cbr-accompmatz
+
+
+# retrieve rnartistcore and build  Kotlin library to describe and plot RNA secondary structures
+git clone https://github.com/fjossinet/RNArtistCore.git
+cd RNArtistCore/
+git pull
+mvn clean package
+
+
+# this must be last line according to 
+# https://repo2docker.readthedocs.io/en/latest/config_files.html#start-run-code-before-the-user-sessions-starts
+exec "$@"
