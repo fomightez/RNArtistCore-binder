@@ -6,12 +6,23 @@ wget -qO RNAVIEW.tar.gz "http://ndbserver.rutgers.edu/ndbmodule/services/downloa
 tar -xzvf RNAVIEW.tar.gz
 cd RNAVIEW/
 make && make clean
+rm RNAVIEW.tar.gz
 
 # Add RNAVIEW to the path
 mkdir -p ~/.local/bin
 cd ~/.local/bin
 ln -s ~/RNAVIEW/bin/rnaview RNAVIEW
 
+
+# set environmental variable
+export RNAVIEW="/RNAVIEW"
+
+
+# retrieve rnartistcore and build  Kotlin library to describe and plot RNA secondary structures
+git clone https://github.com/fjossinet/RNArtistCore.git
+cd RNArtistCore/
+git pull
+mvn clean package
 
 
 ### OLD SOURCE STUFF BELOW FROM failed attempt to install chimera in JupyterDesktop Binder at https://github.com/fomightez/Jupyter-desktop_with_chimera
