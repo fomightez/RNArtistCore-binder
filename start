@@ -6,9 +6,9 @@ export RNAVIEW="/RNAVIEW"
 
 # retrieve rnartistcore and build  Kotlin library to describe and plot RNA secondary structures
 git clone https://github.com/fjossinet/RNArtistCore.git
-cd RNArtistCore/
-git pull
-mvn clean package
+#cd RNArtistCore/
+#git pull
+#mvn clean package
 
 
 # this must be last line according to 
