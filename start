@@ -4,8 +4,11 @@
 export RNAVIEW="/RNAVIEW"
 
 
+# Was doing here so it always has most up to date public version but maybe build takes too long? And 
+# so for now moving to postBuild to make sure at least works first and then decide if time tolerable 
+# for building during start later
 # retrieve rnartistcore and build  Kotlin library to describe and plot RNA secondary structures
-git clone https://github.com/fjossinet/RNArtistCore.git
+#git clone https://github.com/fjossinet/RNArtistCore.git
 #cd RNArtistCore/
 #git pull
 #mvn clean package
