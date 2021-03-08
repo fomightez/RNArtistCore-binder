@@ -1,13 +1,7 @@
 #!/bin/bash
 
-# retrieve notebooks and place correctly in session
-rm index.ipynb
-rm Getting_Circos_Up_and_Running.ipynb
-git clone https://github.com/fomightez/cbr-accompmatz.git
-cp cbr-accompmatz/index.ipynb .
-cp cbr-accompmatz/Getting_Circos_Up_and_Running.ipynb .
-mv cbr-accompmatz/notebooks .
-rm -rf cbr-accompmatz
+# set environmental variable
+export RNAVIEW="/RNAVIEW"
 
 
 # retrieve rnartistcore and build  Kotlin library to describe and plot RNA secondary structures
