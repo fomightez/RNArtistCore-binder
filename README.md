@@ -9,7 +9,7 @@ A session will launch with RNArtist all set to go and a demonstration in a Jupyt
 
 -----
 
-This is just set up to use the RNArtistCore in a Jupyter session **directly in your browser with no installation of anything needed.
+This is just set up to use the RNArtistCore in a Jupyter session **directly in your browser with no installation of anything needed**.
 
 See [RNArtistCore on GitHub](https://github.com/fjossinet/RNArtistCore) for the license of that software.
 
