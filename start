@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# need to be set in the start, too so survive to launching of session
+
 # set environmental variables - this handles adding to path so works, see https://twitter.com/rnartist_app/status/1369181657727664128
 export RNAVIEW="$HOME/RNAVIEW"
 export PATH=$RNAVIEW/bin:$PATH
-
+# need to be set in the start, too so survive to launching of session
 
 # Was doing here so it always has most up to date public version but maybe build takes too long? And 
 # so for now moving to postBuild to make sure at least works first and then decide if time tolerable 
