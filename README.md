@@ -1,7 +1,7 @@
 # RNArtistCore-binder
 Launchable via MyBinder version of RNArtistCore,  see [RNArtistCore on GitHub](https://github.com/fjossinet/RNArtistCore)
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/RNArtistCore-binder/HEAD?filepath=RNArtist%20demo.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/RNArtistCore-binder/HEAD?filepath=rnartistcore_demo.ipynb)
 
 Click on any `launch binder` badge on this page to begin.
 
@@ -17,4 +17,4 @@ This repository is set up to make use of the binder service offered by [MyBinder
 
 -----
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/RNArtistCore-binder/HEAD?filepath=RNArtist%20demo.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fomightez/RNArtistCore-binder/HEAD?filepath=rnartistcore_demo.ipynb)
