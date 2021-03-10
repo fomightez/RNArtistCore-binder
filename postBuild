@@ -12,7 +12,7 @@ rm RNAVIEW.tar.gz
 # set environmental variables - this handles adding to path so works, see https://twitter.com/rnartist_app/status/1369181657727664128
 export RNAVIEW="$HOME/RNAVIEW"
 export PATH=$RNAVIEW/bin:$PATH
-# same need to be set in the start, too so survive to launching of session later
+# same need to be set in the `start` configuration so that survive to launching of session later
 
 
 # retrieve rnartistcore and build  Kotlin library to describe and plot RNA secondary structures
