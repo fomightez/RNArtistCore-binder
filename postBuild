@@ -21,8 +21,8 @@ cd RNArtistCore/
 git pull
 mvn clean package
 
-# move the demo notebook in RNArtistCore up to root since binder set up to use that notebook `rnartistcore_demo.ipynb` upon launch
-mv rnartistcore_demo.ipynb ../.
+# get the current demo notebook from the binderized repo
+curl -OL https://raw.githubusercontent.com/fjossinet/RNArtistCore-binder/main/rnartistcore_demo.ipynb
 
 
 ### OLD SOURCE STUFF BELOW FROM failed attempt to install chimera in JupyterDesktop Binder at https://github.com/fomightez/Jupyter-desktop_with_chimera
