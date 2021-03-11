@@ -22,6 +22,7 @@ git pull
 mvn clean package
 
 # get the current demo notebook from the binderized repo
+cd ~
 curl -OL https://raw.githubusercontent.com/fjossinet/RNArtistCore-binder/main/rnartistcore_demo.ipynb
 
 
